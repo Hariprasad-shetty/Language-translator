@@ -6,6 +6,8 @@ This is a simple web-based Language Translator application that allows users to 
 
 - Translate text between multiple languages
 - Text-to-Speech functionality for both original and translated text
+- Responsive UI
+- Copy the text from Source/target 
 - Built using only HTML, CSS, and JavaScript (no backend)
 
 ## Technologies Used
