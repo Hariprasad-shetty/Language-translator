@@ -39,7 +39,7 @@ icons.forEach((icon)=>{
   icon.addEventListener('click',({target})=>{
     if(target.classList.contains("copy")){
       
-      if(target.id="from1"){
+      if(target.id=="fromCopy"){
         navigator.clipboard.writeText(fromText.value);
         
       }else{
@@ -52,7 +52,7 @@ icons.forEach((icon)=>{
     }else{
       
       let utterance;
-      if(target.id=="from1"){
+      if(target.id=="fromSpeaker"){
         utterance=new window.SpeechSynthesisUtterance(fromText.value);
         utterance.lang=selectTags[0].value.split('-');
       } else {
