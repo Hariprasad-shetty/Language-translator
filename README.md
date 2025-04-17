@@ -8,8 +8,7 @@ This is a simple web-based Language Translator application that allows users to 
 - Text-to-Speech functionality for both original and translated text
 - Built using only HTML, CSS, and JavaScript (no backend)
 
-  
-- ## Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3
