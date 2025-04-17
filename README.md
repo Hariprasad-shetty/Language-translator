@@ -15,6 +15,8 @@ This is a simple web-based Language Translator application that allows users to 
 - JavaScript (ES6)
 - Web Speech API for Text-to-Speech
 
+## How It Works
+
 1. User inputs text and selects source/target languages.
 2. App translates the text.
 3. On clicking the **Speaker** button, the `SpeechSynthesisUtterance` is used to read the translated text aloud.
